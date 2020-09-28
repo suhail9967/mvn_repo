@@ -1,0 +1,65 @@
+docker container ls -aq
+
+docker container rm $(docker container ls -aq)
+
+docker container run -d nginx 
+
+docker container ls 
+
+docker container inspect 45cde4667 
+
+docker container logs 4ae5f5 (to check the logs)
+
+docker container top 7ae634715781  (to check the process running in the container)
+
+ps -aux (to check the process running in the machine)
+
+docker run --name mynginx -d -p 8080:80 nginx
+
+docker container stats
+
+------------------------------------------- Port Mapping in docker container------------------------------------------
+
+docker conatiner run -d -p 3600:80 --name mynginx nginx
+
+docker container exec -it 45cse67sd /bin/bash (To enter into a container)
+
+apt-get update && apt-get install net-tools (To install some tools in a container)
+
+docker container rename 45cse67sd webex_app
+
+docker container ls 
+
+docker container restart 45cse6sd 
+
+-----------------------------------------Attache to running container-----------------------------------------------------------------
+
+docker container attach 2d33we
+
+docker container ls 
+
+docker container kill45cd3
+
+docker container wait 45cde 
+
+then stop the container to checkthe output
+
+docker container stop 45cde
+
+docker container pause 45cde  (To pause the container)
+
+docker container unpause 45cde (to unpause the container)
+
+docker container prune
+
+docker container ls 
+
+docker container port mynginx
+
+docker container run -it ubuntu /bin/bash  (To enter into a container)
+
+docker container diff 45cde 
+
+watch docker container diff 45cde
+
+touch test.txt 
