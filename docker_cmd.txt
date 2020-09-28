@@ -1,0 +1,71 @@
+--------------------- To Install docker on ubuntu --------------------
+
+apt-get update
+
+apt install apt-transport-https ca-certificates curl software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
+apt update
+
+apt-cache policy docker-ce
+
+apt install docker-ce
+
+systemctl status docker
+
+lsb_release -a (to check the details of ubuntu os)
+
+apt-get purge docker-ce (To uninstall docker...)
+
+apt-get autoremove --purge docker-ce
+
+docker info 
+
+systemctl start docker
+
+docker version 
+
+docker --help
+
+docker container ls 
+
+docker images ls 
+
+docker network ls 
+
+docker container run ubuntu cat /etc/os-release 
+
+docker container ls 
+
+docker container ls -a
+
+doker container run ubuntu sleep 30
+
+docker container ls 
+
+docker container run nginx
+
+docker container run ubuntu sleeep 30 ()
+
+docker container start b43de (start the container with container id)
+
+docker pull ubuntu
+
+docker images
+
+docker container ls 
+
+docker container ls -a
+
+docker container run -d ubuntu
+
+docker run -d -it ubuntu /bin/bash
+
+docker ps 
+
+docker container stop 2b34e 
+
+docker container ls 
