@@ -2,11 +2,11 @@
 aws abc
 devops
 Reyaz AWS Trainer
-django.
+django
 python
 flask
 nodejs
 redis
-spring boot
+
 java
 
