@@ -1,9 +1,8 @@
  Updated upstream
 aws abc
 devops
-
-aws xyz
-Stashed changes
+Reyaz AWS Trainer
+django.
 python
 flask
 nodejs
