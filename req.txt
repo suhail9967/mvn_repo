@@ -4,9 +4,7 @@ devops
 Reyaz AWS Trainer
 django
 python
-flask
 nodejs
 redis
 
-java
 
