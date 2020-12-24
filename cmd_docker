@@ -60,6 +60,3 @@ docker container run -it ubuntu /bin/bash  (To enter into a container)
 
 docker container diff 45cde 
 
-watch docker container diff 45cde
-
-touch test.txt 

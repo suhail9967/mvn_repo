@@ -67,5 +67,4 @@ docker run -d -it ubuntu /bin/bash
 docker ps 
 
 docker container stop 2b34e 
-
-docker container ls 
+ 
